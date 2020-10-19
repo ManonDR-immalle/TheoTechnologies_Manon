@@ -24,3 +24,9 @@ nav a:hover {
     font-weight: bold;
     border-radius: 15px;
 }
+
+h1 {
+    color: black;
+    font-size: 2em;
+    font-style: oblique;
+}
