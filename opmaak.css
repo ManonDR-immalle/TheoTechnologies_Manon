@@ -6,15 +6,15 @@ nav {
     font-size: 13pt;
     background-color: #FFC713;
     height: 50px;
-    padding: 15px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
 }
 
 nav a {
     text-decoration: none;
     color: black;
     font-size: 1em;
-    padding: 10px 10px 10px 10px;
-    float: right;
+    padding: 0px 10px 0px 10px;
+    float: left;
 }
 
 nav a:hover {
@@ -26,11 +26,44 @@ nav a:hover {
 }
 
 h1 {
-    color: black;
+    color: #FFC713;
     font-size: 2em;
     font-style: oblique;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-article {
-    width: 10%;
+section {
+    /* width: 1170px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+
+section {
+    margin-top: 20px;
+    padding: 15px 15px 15px 15px;
+    height: 600px;
+    font-size: 13pt;
+    font-family: 'Lucida Bright';
+}
+
+h3 {
+    color: #FFC713;
+}
+
+article p {
+    color: rgb(16, 16, 41);
+}
+
+section article {
+    width: 70%;
+    float: left;
+}
+
+section aside {
+    background-color: khaki;
+    min-height: 550px;
+    width: 20%;
+    padding: 15px 15px 15px 15px;
+    float: right;
 }
