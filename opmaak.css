@@ -33,11 +33,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-section {
-    /* width: 1170px; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-}
 
 section {
     margin-top: 20px;
@@ -55,12 +50,12 @@ article p {
     color: rgb(16, 16, 41);
 }
 
-section article {
+.StandaardArticle {
     width: 70%;
     float: left;
 }
 
-section aside {
+.StandaardAside {
     background-color: khaki;
     min-height: 550px;
     width: 20%;
@@ -76,4 +71,33 @@ aside img {
 
 ul {
     padding: 0px;
+}
+
+article H1 {
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.OverOns {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+.Homepagina img {
+    width: 150px;
+    border-color: black;
+}
+
+.Homepagina {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    margin-top: 5px;
+    padding-bottom: 10px;
 }
