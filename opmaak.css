@@ -44,6 +44,7 @@ section {
 
 h3 {
     color: #FFC713;
+    margin-top: 30px;
 }
 
 article p {
@@ -89,7 +90,7 @@ article H1 {
 }
 
 .Homepagina img {
-    width: 150px;
+    width: 120px;
     border-color: black;
 }
 
@@ -97,7 +98,46 @@ article H1 {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    height: 100px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+table {
+    border-color: #FFC713;
+    color: rgb(52, 74, 94);
+}
+
+td {
+    vertical-align: baseline;
+    padding: 5px 5px 5px 5px;
+}
+
+.contact img {
+    padding-right: 10px;
+}
+
+.Frans {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
     height: 60px;
     margin-top: 5px;
     padding-bottom: 10px;
+}
+
+.Frans h1 {
+    color: rgb(52, 74, 94);
+}
+.Homepagina h1 {
+    color: rgb(52, 74, 94);
+}
+.OverOns h1{
+    color: rgb(52, 74, 94);
+}
+.contact p{
+    color: rgb(52, 74, 94);
+}
+.StandaardArticle p{
+    color: rgb(52, 74, 94);
 }
