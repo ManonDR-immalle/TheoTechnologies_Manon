@@ -145,3 +145,7 @@ td {
 li {
     color: rgb(52, 74, 94);
 }
+
+iframe {
+    padding: 10px 10px 10px 0px;
+}
