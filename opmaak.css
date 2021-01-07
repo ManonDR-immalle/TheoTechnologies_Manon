@@ -1,3 +1,9 @@
+body {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 nav img {
     width: 1em;
 }
@@ -12,7 +18,6 @@ nav {
 nav a {
     text-decoration: none;
     color: black;
-    font-size: 1em;
     padding: 0px 10px 0px 10px;
     float: left;
 }
@@ -20,8 +25,7 @@ nav a {
 nav a:hover {
     background-color: khaki;
     color: white;
-    font-size: 15pt;
-    font-weight: bold;
+    font-size: 13pt;
     border-radius: 15px;
 }
 
@@ -148,4 +152,16 @@ li {
 
 iframe {
     padding: 10px 10px 10px 0px;
+}
+
+.NieuweProducten img {
+    width: 500px;
+}
+
+.NieuweProducten p {
+    color: rgb(52, 74, 94);
+}
+
+.NieuweProducten td {
+    width: 50%;
 }
